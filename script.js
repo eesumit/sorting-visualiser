@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to create the initial bars and save the initial array
     function createBars() {
         setSortingState(false);
+        button.innerHTML = `<span class="material-symbols-rounded">
+        play_circle
+        </span>`;
         let noOfBars = arrSize.value;
         let randomNumber = [];
         for (let i = 1; i <= noOfBars; i++) {
