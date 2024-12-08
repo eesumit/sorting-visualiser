@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Save the initial array state
         initialArray = randomNumber.slice(); // Save a copy
-        console.log("Initial Array:", initialArray);
+        // console.log("Initial Array:", initialArray);
     }
 
     // Function to reset the bars to their initial state
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             barContainers.appendChild(bar);
         });
 
-        console.log("Reset to Initial Array:", initialArray);
+        // console.log("Reset to Initial Array:", initialArray);
         // Avoid starting a new sort
         setSortingState(false);
     }
